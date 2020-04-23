@@ -28,6 +28,7 @@ AS $$
             return _module
 
     os = cache_import('os')
+    print(os.environ['HOME'])
 
     boto3 = cache_import('boto3')
     tempfile = cache_import('tempfile')
